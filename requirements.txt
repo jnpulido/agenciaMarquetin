@@ -1,0 +1,16 @@
+# paquetes necesarios para el proyecto
+django == 3.2.16
+# poner en secreto que las cosas son contraseñas proteger las variables en una variable de ambiente
+django-environ==0.9.0 
+# es el que da acceso a las url
+django-cors-headers==3.13.0
+# permite crear apis
+djangorestframework
+# para trabajar con imagenes
+pillow==9.3.0
+# guardar las imagenes a aws usamos un cdn
+django-storages==1.13.1
+# crear contenido de manera mas rica negrita italica
+django-ckeditor==6.3.2
+# poder trabajr con posgressql
+psycopg2==2.9.5
